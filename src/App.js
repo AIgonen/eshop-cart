@@ -8,12 +8,7 @@ function App() {
           Shopping Cart
         </p>
       </header>
-      <body>
-      <p>
-          Shopping Cart
-      </p>
-      </body>
-    </div>
+      </div>
   );
 }
 
