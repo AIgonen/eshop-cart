@@ -1,7 +1,11 @@
 import './App.css';
+import NavBar from './components/navbar';
+import Counters from './components/counters';
+
 
 function App() {
   return (
+    /*
     <div className="App">
       <header className="App-header">
         <p>
@@ -9,6 +13,13 @@ function App() {
         </p>
       </header>
       </div>
+      */
+     <>
+      <NavBar />
+      <main className='container'>
+        <Counters />
+      </main>
+     </>
   );
 }
 
